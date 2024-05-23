@@ -25,7 +25,7 @@
   <body>
     <!-- Start Header/Navigation -->
     <nav
-      class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
+      class="custom-navbar navbar navbar fixed-top-transparent navigation-3 clearfix fixed-top transparent navbar-expand-md navbar-dark bg-dark"
       arial-label="Furni navigation bar"
     >
       <div class="container">
@@ -48,7 +48,24 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li><a class="nav-link" href="shop.html">Shop</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="shopDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profil
+              </a>
+              <ul class="dropdown-menu bg-dark" aria-labelledby="shopDropdown">
+                <li><a class="dropdown-item text-danger" href="shop.html">Visi - Misi</a></li>
+                <li><a class="dropdown-item" href="categories.html">Sejarah</a></li>
+                <!-- <li><a class="dropdown-item" href="new-arrivals.html">New Arrivals</a></li> -->
+                <!-- <li><a class="dropdown-item" href="sale.html">Sale</a></li> -->
+              </ul>
+            </li>
             <li><a class="nav-link" href="about.html">About us</a></li>
             <li><a class="nav-link" href="services.html">Services</a></li>
             <li><a class="nav-link" href="blog.html">Blog</a></li>
@@ -66,7 +83,8 @@
         </div>
       </div>
     </nav>
-    <!-- End Header/Navigation -->
+
+    <!-- End Header/Navigation
 
     <!-- Start Hero Section -->
     <div class="hero">
@@ -74,7 +92,7 @@
         <div class="row justify-content-between">
           <div class="col-lg-5">
             <div class="intro-excerpt">
-              <h1>Modern Interior <span clsas="d-block">Design Studio</span></h1>
+              <h1>SDN 1 <span clsas="d-block">Ngringo</span></h1>
               <p class="mb-4">
                 Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
                 vulputate velit imperdiet dolor tempor tristique.
@@ -87,7 +105,7 @@
           </div>
           <div class="col-lg-7">
             <div class="hero-img-wrap">
-              <img src="images/couch.png" class="img-fluid" style />
+              <img src="images/sekolah.png" class="img-fluid" style="width: 800px; height: 450px" />
             </div>
           </div>
         </div>
