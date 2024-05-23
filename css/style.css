@@ -44,6 +44,13 @@ a.more {
   font-size: 32px;
   font-weight: 600;
 }
+.navbar .navbar-brand img {
+  padding: 5px 0; /* Mengurangi jarak atas dan bawah logo */
+}
+.navbar {
+  padding-top: 0.2rem; /* Sesuaikan nilai ini */
+  padding-bottom: 0.2rem; /* Sesuaikan nilai ini */
+}
 .custom-navbar .navbar-brand > span {
   opacity: 0.4;
 }
