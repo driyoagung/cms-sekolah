@@ -929,3 +929,33 @@ textarea {
   border-radius: 50%;
   background: rgba(59, 93, 80, 0.2);
 }
+
+  /* background-color: #3b5d50; */
+  /* Dropdown list Visi Misi  */
+.accordion-button {
+  border-radius: 10px;
+  /* margin-bottom: 10px; */
+  background-color: #3b5d50;
+  color: #fff;
+  font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #3b5d50;
+}
+.accordion-button:after {
+  content: "\f078"; /* Font Awesome down arrow icon */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  float: right;
+}
+.accordion-button.collapsed:after {
+  content: "\f078"; Font Awesome right arrow icon
+}
+.accordion-body {
+  background-color: #e9ecef;
+  transition: all 0.4s ease;
+}
+.accordion-header {
+  margin-bottom: 1px;
+}
