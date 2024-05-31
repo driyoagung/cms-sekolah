@@ -959,3 +959,30 @@ textarea {
 .accordion-header {
   margin-bottom: 1px;
 }
+
+/* Stiling Prestasi */
+
+      .achievement-card {
+        background-color:rgb(205,232,229); 
+        border-radius: 15px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan */
+      }
+      .achievement-card .number, .achievement-card .title, .achievement-card .detail {
+          color: #3b5d50; /* Warna font */
+      }
+
+      .contact-card {
+        border: none;
+        border-radius: 10px;
+        transition: transform 0.3s;
+      }
+      .contact-card:hover {
+        transform: scale(1.05);
+      }
+      .contact-icon {
+        font-size: 3rem;
+        color: #3b5d50;
+      }
+      .contact-title {
+        color: #000;
+      }
