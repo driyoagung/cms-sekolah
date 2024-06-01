@@ -986,3 +986,29 @@ textarea {
       .contact-title {
         color: #000;
       }
+
+      /* Image Slide Responsive di Page Pengembangan Karakter */
+      /* CSS untuk tampilan desktop */
+.testimonial-slider .item .img-wrap img {
+  width: 100%; /* Menyesuaikan gambar dengan lebar kolom */
+  max-width: 500px; /* Batas maksimal lebar gambar */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+}
+
+/* CSS untuk tampilan mobile */
+@media (max-width: 768px) {
+  .testimonial-slider .item .img-wrap img {
+      width: 100%; /* Menyesuaikan gambar dengan lebar kolom */
+      max-width: 100%; /* Gambar memenuhi lebar kolom pada tampilan mobile */
+      height: auto; /* Mempertahankan rasio aspek gambar */
+  }
+
+  .testimonial-slider .item .col-lg-8 {
+      max-width: 100%; /* Kolom memenuhi lebar kontainer pada tampilan mobile */
+  }
+
+  .testimonial-slider .item blockquote {
+      font-size: 16px; /* Menyesuaikan ukuran font blockquote pada tampilan mobile */
+      padding: 10px; /* Memberikan padding untuk keterbacaan lebih baik */
+  }
+}
