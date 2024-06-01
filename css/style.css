@@ -667,6 +667,9 @@ a.more {
 .blog-section {
   padding: 7rem 0 12rem 0;
 }
+.blog-section1 {
+  padding: 3rem 0 8rem 0;
+}
 .blog-section .post-entry a {
   text-decoration: none;
 }
