@@ -1018,3 +1018,8 @@ textarea {
       padding: 10px; /* Memberikan padding untuk keterbacaan lebih baik */
   }
 }
+.card-body:hover {
+  background-color: #f8f9fa; /* Ubah warna latar belakang saat dihover */
+  border-radius: 10px; /* Tambahkan radius sudut pada border */
+  transition: all 0.3s ease; /* Animasi perubahan */
+}
